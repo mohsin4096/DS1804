@@ -84,6 +84,6 @@ void transmitPulses(uint8_t wantedPulses);
 
 uint32_t map(uint32_t x, uint32_t in_min, uint32_t in_max, uint32_t out_min, uint32_t out_max);
 uint32_t constrain(uint32_t x, uint32_t a, uint32_t b);
-uint32_t abs(uint32_t x);
+uint32_t abs(int32_t x);
 
 #endif    // ifndef DS1804_H
